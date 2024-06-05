@@ -1,6 +1,6 @@
 public class Pokemon {
-
-//    variabelen
+//wil ik deze class ook abstract?
+    //    variabelen
     private String type;
     private int hp;
 
@@ -10,7 +10,7 @@ public class Pokemon {
         this.hp = hp;
     }
 
-//    methode
+//    methode // beter meer abstract maken zonder de body?
     public void attack (Pokemon opponent) {
         System.out.println( this.type + " attacks " + opponent.type );
     }
@@ -20,7 +20,7 @@ public class Pokemon {
 
 
 
-//    getters
+//    getters want staat op private
     public String getType() {
         return type;
     }
